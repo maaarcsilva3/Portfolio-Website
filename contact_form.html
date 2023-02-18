@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="index_style.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container mt-3  header" >
+            <div class="row d-flex">
+
+                <div class="col p-4 d-flex "> 
+                    <img class="logo " src="images\logo-no-background.png" alt="My picture">
+                    <h4 class="name">Marc Silva</h4>
+                </div>
+
+                <div class="col p-4 buttons">
+                    <button class="btn btn-primary contact" onclick="window.location.href='index.html'" type="submit">Home</button>
+                    <button class="btn btn-primary view" onclick="window.location.href='works.html'" type="submit">View Work</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container_form  m-auto d-flex ">
+            
+
+            <div class="form_question ">
+                <h1 class="make_contact">Get in touch with..</h1>
+            </div>
+
+            <div class="inputs">
+                <div class="upper">
+                    <div class="form-group name m-1 p-1" >
+                        <label for="input_name">Name</label>
+                        <input type="text" class="form-control" id="input_name"  placeholder="Enter Name">
+                    </div>
+
+                     <div class="form-group email m-1 p-1">
+                        <label for="input_email">Email address</label>
+                         <input type="text" class="form-control" id="input_email"  placeholder="Enter email">
+                    </div>
+                    
+                </div>
+
+                <div class="bot">
+                    <div class=" form-group message_box">
+                        <label for="input_message">Message</label>
+                        <textarea type="text" class="form-control "  id="input_message" placeholder="Enter message" > </textarea>    
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    </div>
+                   
+                </div>    
+
+            </div>
+           
+        </div>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    </body>
+</html>

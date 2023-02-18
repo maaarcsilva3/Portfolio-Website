@@ -1,0 +1,290 @@
+
+.header{
+    margin-left: 100px;
+    position: sticky;
+    top: 0; 
+    height: 100px
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(114deg, rgba(2,0,36,1) 0%, rgba(120,172,203,1) 0%, rgba(168,237,251,1) 100%);    font-family: 'Raleway';font-size: 22px;
+}
+.name{
+    margin-top: 10px;
+}
+.buttons{
+    text-align: right;
+
+}
+.content{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(166,166,226,1) 0%, rgba(168,237,251,1) 100%);   
+    border-radius: 75px ;
+    height: 600px;
+    width: 90%;
+}
+
+.logo{
+    width: 50px;
+}
+
+
+.contact{
+    background-color: #4681f4;
+}
+.view{
+    background-color: #4681f4;
+}
+
+
+.dp{
+    margin-top: 50px;
+    height: 550px;
+    width: 40% ;
+}
+
+
+.greeting{
+    margin-top: 50px;
+    height: 550px;
+    width: 60% ;
+}
+
+
+.hi{
+    font-size: 60px;
+}
+.description{
+    font-size: 28px;
+}
+
+.content_2{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(166,166,226,1) 0%, rgba(168,237,251,1) 100%);
+    border-radius: 75px ;
+    height: 600px;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.career_title{
+   margin-top: 100px ;
+    height: 550px;
+    width: 60% ;
+ 
+}
+.career_description{
+    border: 1px solid;
+    height: 550px;
+    width: 40% ;
+}
+
+.career_title_font{
+    font-size: 60px;
+}
+.career_title_description{
+    font-size: 25px;
+}
+.skills{
+    margin-top: 150px ;
+}
+.btn{
+    background-color: #5367c0;
+}
+
+
+/* contact_form styles*/
+
+.container_form{
+    border-radius: 75px ;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(166,166,226,1) 0%, rgba(168,237,251,1) 100%);   
+
+    margin-top: 120px !important; 
+    width:80%;
+    margin-bottom: 50px !important;
+    
+}
+
+.form_question{
+    
+    margin: 15px;
+    height: 500px;
+    width: 45%;
+    text-align: center;
+}
+
+.make_contact{
+    margin-top: 150px;
+    font-size: 58px;
+}
+
+
+
+.inputs{
+   
+    height: 500px;
+    margin: 15px;
+    margin-top: 30px;
+    
+    width: 55%;
+}
+
+.upper{
+    margin: 10px;
+   
+    width: 5auto;
+    height: 100px;
+    display: flex;
+}
+
+.name{
+    width: 200px;
+  
+}
+
+.email{
+    margin-top: 9px;
+    width: 200px;
+}
+
+
+
+.bot{
+    margin: 10px;
+    
+    width: 5auto;
+    height: 300px;
+}
+
+.message_box{
+    padding: 5px;
+    height: 300px;
+    width: 550px;
+}
+
+/* work_form style*/
+
+#carousel_container  {
+    margin: 60px;
+}
+#img_1{
+    
+    height: 670px;
+    margin: auto;
+}
+#img_2{
+    
+    height: 670px;
+    margin: auto;
+}
+#img_3{
+    
+
+    height: 670px;
+    margin: auto;
+}
+h3{
+    color: black;
+}
+
+@media (max-width: 768px) {    
+
+.content{
+    display: grid !important;
+    height: auto;
+}
+.greeting{
+    display: grid !important;
+    text-align: center;
+    
+    width: 100%;
+
+  
+}
+.dp{
+   
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+#dp_id{
+    width: 200px;
+
+}
+
+.content_2{
+    display: grid !important;
+    height: auto;
+    
+
+}
+.career_title{
+    display: grid !important;
+    text-align: center;
+    
+    width: 100%;
+    margin-top: 30px;
+
+}
+.skills{
+    display: grid !important;
+    text-align: center;
+    
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container_form {
+    display: grid !important;
+    height: auto;
+   
+}
+
+.form_question{
+    
+    text-align: center;
+    
+    
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 500px;
+
+    height: 200px;
+    
+}
+
+.inputs{
+    height: 300px;
+       
+    width: auto;
+}
+.message_box{
+    width: 500px !important;
+}
+
+#img_1{
+width: 800px;
+object-fit: contain;
+}
+#img_2{
+    width: 800px;
+    object-fit: contain ;
+}
+
+#img_3{
+    width: 800px;
+    object-fit: contain;
+   
+}
+h3{
+    color: black;
+}
+
+
+
+
+
+
+}
