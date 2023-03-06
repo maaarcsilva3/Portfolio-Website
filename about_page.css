@@ -105,6 +105,14 @@ h4 {
     padding-right: 50px;
     z-index: 20;
 
+    animation-name: aboutme_animation;
+    animation-duration: 3.5s;
+
+}
+@keyframes aboutme_animation {
+  0%   { left:0px; top:auto;}
+  
+  100% { left:800px; top:auto;}
 }
 .design1{
     background-color: #f8f4dd;
@@ -114,7 +122,16 @@ h4 {
     top: 150px;
     left: 450px;
     z-index: 5;
+    animation-name: design1_animation;
+    animation-duration: 3.5s;
 }
+
+@keyframes design1_animation {
+  0%   { left:0px; bottom:542px;}
+
+  100% { left:450px; bottom:542px;}
+}
+
 
 .contacts_container{
     position: relative;
