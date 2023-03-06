@@ -3,7 +3,10 @@
     <head>
         <title>Landing Page</title>
         <link rel="stylesheet" href="index_style.css">
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
     </head>
     <body>
         
@@ -21,16 +24,119 @@
 
         <div class="explore">
             Curious? Come and Explore
-            <button class="btn_explore"> explore </button>
+            <button class="btn_explore" onclick="displayMainPage()" > Explore </button>
         </div>
 
 
+        <script>
+
+            function displayMainPage() {
+                var main_page = `
+
+
+                <div class="row d-flex">
+
+<div class="col p-4 d-flex "> 
+    <img class="logo " src="images\logo-no-background.png" alt="My picture">
+
+    <h4 class="name">Marc Silva</h4>
+</div>
+
+
+<div class="col p-4 buttons">
+    <button class="btn btn-primary contact" onclick="window.location.href='contact_form.html'" type="submit">Contact</button>
+    <button class="btn btn-primary view" onclick="window.location.href='works.html'" type="submit">View Work</button>
+</div>
+</div>
+
+</div>
+
+<div class="container mt-4 content p-3 d-flex">
+
+<div class="dp p-4 ">
+<img id="dp_id" src="images\display pic.jpg" class="rounded-5 image_dp" alt="My picture">
+</div>
+
+<div class=" greeting p-4 ">
+<H1 class="hi">Hi!</H2>
+<p class="description">I'm a highly skilled and creative professional who plays a critical role in building the modern web.
+    Having a keen eye for detail and can create beautiful, functional, and responsive websites that meet the needs of my clients and users.
+</p>
+</div>
+
+</div>
+
+<div class="container  content_2 p-3 d-flex">
+
+<div class=" career_title p-5">
+<h1 class="career_title_font">My Career So Far . .</h1>
+<p class="career_title_description">Making a career transition from sales to IT industry is a challenge, but a great opportunity to learn new skills, broaden my professional horizons, and pursue my passions.</p>
+</div>
+
+<div class=" skills p-4 ">
+
+<button class="btn btn-primary view m-1" >HTML</button>
+<button class="btn btn-primary view m-1" >CSS</button>
+<button class="btn btn-primary view  m-1" >Bootsrap</button>
+<button class="btn btn-primary view  m-1" >Git</button>
+<button class="btn btn-primary view m-1" >SAP</button>
+<button class="btn btn-primary view m-1" >C++</button>
+<button class="btn btn-primary view m-1" >Microsoft Office</button>
+</div>
+
+</div>
+
+
+<div class="container_form  m-auto d-flex ">
+
+
+<div class="form_question ">
+<h1 class="make_contact">Get in touch with..</h1>
+</div>
+
+<div class="inputs">
+<div class="upper">
+    <div class="form-group name m-1 p-1" >
+        <label for="input_name">Name</label>
+        <input type="text" class="form-control" id="input_name"  placeholder="Enter Name">
+    </div>
+
+     <div class="form-group email m-1 p-1">
+        <label for="input_email">Email address</label>
+         <input type="text" class="form-control" id="input_email"  placeholder="Enter email">
+    </div>
+    
+</div>
+
+<div class="bot">
+    <div class=" form-group message_box">
+        <label for="input_message">Message</label>
+        <textarea type="text" class="form-control "  id="input_message" placeholder="Enter message" > </textarea>    
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </div>
+   
+</div>    
+
+</div>
+
+</div>
+
+
+
+
+                `;
+                document.write(main_page);
+            }
+            
+         </script>
 
 
 
 
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     </body>
 </html>
