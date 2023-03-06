@@ -45,11 +45,21 @@ body{
 
 
 .greeting{
+    position: absolute;
     margin-top: 50px;
     height: 550px;
     width: 60% ;
+
+    animation-name: greeting-left-right;
+    animation-duration: 3.5s;
 }
 
+@keyframes greeting-left-right{
+    0%   { left:0px; bottom:542px;}
+
+    100% { left:560px; bottom:542px;}
+
+}
 
 .hi{
     font-size: 60px;
@@ -211,8 +221,19 @@ h3{
     padding: 20px;
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    animation-name: title;
+    animation-duration: 3.5s;
     
 }
+
+@keyframes title {
+  0%   { left:0px; bottom:542px;}
+
+  100% { left:560px; bottom:542px;}
+}
+
+
 
 .explore {
     position: fixed;
