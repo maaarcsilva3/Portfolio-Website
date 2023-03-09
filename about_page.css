@@ -93,7 +93,6 @@ h4 {
 .about_me {
     text-align: justify;
     position: absolute;
-    text-align: left;
     background-color: #dce2f044;
     left: 800px;
     width: 900px;
@@ -120,7 +119,7 @@ h4 {
     position: relative;
     width: 500px;
     height: 250px;
-    top: 150px;
+    top: 200px;
     left: 450px;
     z-index: 5;
     animation-name: design1_animation;
@@ -134,9 +133,95 @@ h4 {
 }
 
 
+
+
+
+
+
+/* content 2 */
+
+.content_container2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.about_me2 {
+    
+    position: absolute;
+    text-align: justify;
+    background-color: #dce2f044;
+    top: 650px;
+    left: 200px;
+    width: 900px;
+    font-family: 'Bellota Text';
+    font-size: 22px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:50px;
+    padding-right: 150px;
+    z-index: 20;
+
+    animation-name: aboutme2_animation;
+    animation-duration: 3.5s;
+
+}
+@keyframes aboutme2_animation {
+  0%   { left:0px; top:650px;}
+  
+  100% { left:200px; top: 650px;}
+}
+.design2{
+    background-color: #f8f4dd;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    top: 850px;
+    left: 1000px;
+    z-index: 5;
+    animation-name: design2_animation;
+    animation-duration: 3.5s;
+}
+
+@keyframes design2_animation {
+  0%   { left:0px; top: 850px;}
+
+  100% { left:1000px; top: 850px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contacts and form */
 .contacts_container{
     position: relative;
-    top: 600px;
+    top: 1600px;
     width: 100%;
     display: flex;
 
@@ -166,7 +251,7 @@ h4 {
 }
 .footer{
     position: relative;
-    top: 900px;
+    top: 1900px;
     background-color: #373b4448;
     height: 70px;
 
