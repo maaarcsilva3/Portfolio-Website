@@ -224,11 +224,13 @@ h4 {
 }
 .footer{
     position: relative;
+    text-align: center;
     top: 1500px;
     background-color: #373b4448;
     height: 70px;
     margin: 0px;
-    padding: 0px;
+    padding-top: 30px;
+    width: 100%;
 
 }
 
@@ -282,8 +284,9 @@ h4 {
 
 .explore {
     position: fixed;
+    text-align: center;
     bottom: 270px;
-    left: 860px;
+    left: 930px;
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -318,7 +321,7 @@ h4 {
  }
 
  #carousel_container {
-    margin-top: 100px;
+    margin-top: 150px;
  }
 
 
@@ -357,3 +360,163 @@ a {
     color: inherit;
 }
 
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        width: 100vw;
+    }
+    .topnav { 
+      height: 100px;
+      width: 100%;
+    }
+  
+    .logo_container {
+      left: 10px;
+    }
+    .button_container{
+        left: 500px;
+    }
+  
+    .logoname_container {
+      left: 120px;
+    }
+  
+
+    .content_container{
+        left: 30px;
+    }
+
+    .content_container2{
+        bottom: 1200px;
+        left: 30px;
+    }
+  
+    .contacts_container {
+        top: 1800px;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+  
+    .about_me {
+      left: 50px;
+      width: 600px;
+      padding-left: 50px;
+      padding-right: 50px;
+      animation-name: aboutme_animation;
+      animation-duration: 2s;
+      animation: none;
+    }
+
+  
+  
+
+    .design1 {
+      display: none;
+    }
+  
+    .about_me2 {
+      top: 1300px;
+      left: 50px;
+      width: 600px;
+      padding-left: 50px;
+      padding-right: 50px;
+      animation: none;
+    }
+
+    @keyframes aboutme2_animation {
+        0%   { left:0px; top:750px;}
+        
+        100% { left:100px; top: 750px;}
+    }
+  
+    .design2 {
+    display: none;
+    }
+    
+    .socials {
+      left: 0;
+      width: 100%;
+      padding: 50px;
+      height: auto;
+    }
+  
+    .form_container {
+      width: 100%;
+      padding: 50px;
+      text-align: center;
+    }
+
+    .get_intouch{
+        position: relative;
+        left: 0px;
+    }
+
+    .footer{
+        padding-top: 30px;
+        text-align: center;
+        position: relative;
+        top: 1800px;
+        background-color: #373b4448;
+        width: 100%;
+    }
+
+
+
+    .url {
+        border-radius: 5px;
+        padding: 10px;
+        position: relative;
+        background-color: #dce2f044;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Bellota Text';
+        left: 130px;
+        width: 500px;
+        
+    }
+
+    #carousel_container {
+        margin-top: 100px;
+     }
+   
+
+
+                /* landing page */
+#bg_clip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lp_content {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  
+  text-align: left;
+  z-index: 1;
+  animation: none;
+}
+
+.explore {
+  position: absolute;
+ top: 500px;
+  left: 350px;
+  text-align: center;
+  z-index: 1;
+  animation: none;
+}
+
+
+
+  }
