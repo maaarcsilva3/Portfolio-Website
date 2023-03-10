@@ -389,40 +389,40 @@ a {
 
 @media screen and (max-width: 768px) {
 
-    body{
-        width: 100vw;
-    }
-    .topnav { 
-      height: 100px;
-      width: 100%;
-    }
-  
-    .logo_container {
-      left: 10px;
-    }
-    .button_container{
-        left: 500px;
-    }
-  
-    .logoname_container {
-      left: 120px;
-    }
-  
+  body{
+    width: 100vw;
+  }
+  .topnav { 
+  height: 100px;
+  width: 100%;
+  }
 
-    .content_container{
-        left: 30px;
-    }
+  .logo_container {
+    left: 10px;
+  }
+  .button_container{
+    left: 500px;
+  }
 
-    .content_container2{
-        bottom: 1200px;
-        left: 30px;
+  .logoname_container {
+    left: 120px;
+  }
+
+
+  .content_container{
+    left: 30px;
+  }
+
+  .content_container2{
+    bottom: 1200px;
+    left: 30px;
+  }
+
+  .contacts_container {
+    top: 2000px;
+    flex-direction: column;
+    align-items: center;
     }
-  
-    .contacts_container {
-        top: 1900px;
-        flex-direction: column;
-        align-items: center;
-      }
   
   
     .about_me {
@@ -432,6 +432,7 @@ a {
       padding-right: 50px;
       animation-name: aboutme_animation;
       animation-duration: 2s;
+      z-index: 4;
       animation: none;
     }
 
@@ -439,11 +440,23 @@ a {
   
 
     .design1 {
-      display: none;
+      background-color: none !important;
+      position: relative;
+      width: 0px;
+      height: 250px;
+      top: 10px;
+      left: 380px;
+      z-index: 5;
+      animation: none;
+    }
+
+    .dp {
+      width: 120px;
+      border-radius: 50%;
     }
   
     .about_me2 {
-      top: 1300px;
+      top: 1600px;
       left: 50px;
       width: 600px;
       padding-left: 50px;
@@ -451,14 +464,19 @@ a {
       animation: none;
     }
 
-    @keyframes aboutme2_animation {
-        0%   { left:0px; top:750px;}
-        
-        100% { left:100px; top: 750px;}
-    }
   
     .design2 {
-    display: none;
+      display: flex;
+      width: 600px;
+      height: 250px;
+      top:2390px;
+      left: 50px;
+     
+      animation:none;
+    }
+
+    .dlsl_logo {
+      margin-left: 100px ;
     }
     
     .socials {
@@ -482,8 +500,8 @@ a {
     .footer{
         padding-top: 30px;
         text-align: center;
-        position: relative;
-        top: 1800px;
+        position: fixed;
+        bottom: 0;
         background-color: #373b4448;
         width: 100%;
     }
