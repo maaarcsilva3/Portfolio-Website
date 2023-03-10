@@ -118,10 +118,10 @@ h4 {
 .design1{
     background-color: #f8f4dd;
     position: relative;
-    width: 500px;
+    width: 600px;
     height: 250px;
     top: 200px;
-    left: 450px;
+    left: 350px;
     z-index: 5;
     animation-name: design1_animation;
     animation-duration: 3.5s;
@@ -130,7 +130,7 @@ h4 {
 @keyframes design1_animation {
   0%   { left:0px; bottom:542px;}
 
-  100% { left:450px; bottom:542px;}
+  100% { left:350px; bottom:542px;}
 }
 
 
@@ -173,15 +173,17 @@ h4 {
   100% { left:200px; top: 750px;}
 }
 .design2{
+    display: flex;
     background-color: #f8f4dd;
     position: relative;
-    width: 500px;
+    width: 600px;
     height: 250px;
     top: 950px;
     left: 1000px;
     z-index: 5;
     animation-name: design2_animation;
     animation-duration: 3.5s;
+    
 }
 
 @keyframes design2_animation {
@@ -314,11 +316,30 @@ h4 {
  
   
   /* explore css */
- #im_1, #img_2, #img_3, #img_4 {
+ #img_1, #img_2, #img_3, #img_4 {
 
     width: 1000px;
     height: 500px;
  }
+.dp {
+margin-left: 100px;
+  border-radius: 50%;
+  width: 250px;
+  z-index: 10;
+}
+
+.dlsl_logo{
+  width: 170px;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+.kodego_logo{
+  width: 180px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
 
  #carousel_container {
     margin-top: 150px;
