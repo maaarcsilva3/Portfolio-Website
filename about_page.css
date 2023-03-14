@@ -21,10 +21,19 @@ body {
     left: 50px;
 }
 .logo {
-
-    width: 100px;
-    height: 100px;
+margin-left: 5px;
+  width: 100px;
+  height: 100px;
 }
+.logo_git{
+  width: 90px;
+  height: 90px;
+}
+.logo_linked{
+  width: 115px;
+  height: 90px;
+}
+
 .logoname_container{
     position: absolute;
     top: 15px;
@@ -149,22 +158,22 @@ h4 {
 
 .about_me2 {
     
-    position: absolute;
-    text-align: justify;
-    background-color: #dce2f044;
-    top: 750px;
-    left: 200px;
-    width: 900px;
-    font-family: 'Bellota Text';
-    font-size: 22px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left:50px;
-    padding-right: 150px;
-    z-index: 20;
+  position: absolute;
+  text-align: justify;
+  background-color: #dce2f044;
+  top: 750px;
+  left: 200px;
+  width: 900px;
+  font-family: 'Bellota Text';
+  font-size: 22px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left:50px;
+  padding-right: 150px;
+  z-index: 20;
 
-    animation-name: aboutme2_animation;
-    animation-duration: 3.5s;
+  animation-name: aboutme2_animation;
+  animation-duration: 3.5s;
 
 }
 @keyframes aboutme2_animation {
@@ -192,18 +201,84 @@ h4 {
   100% { left:1000px; top: 950px;}
 }
 
+/* container 3 */
+.content_container3{
+  position: relative;
+  top: 1400px;
+
+}
+
+.about_me3 {
+  position: absolute;
+  text-align: justify;
+  background-color: #dce2f044;
+  left: 760px;
+  width: 900px;
+  font-family: 'Bellota Text';
+  font-size: 22px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left:200px;
+  padding-right: 50px;
+  z-index: 20;
+
+  animation-name: aboutme3_animation;
+  animation-duration: 3.5s;
+}
+
+@keyframes aboutme3_animation {
+  0%   { left:0px; top:auto;}
+  
+  100% { left:760px; top: auto;}
+}
+
+.design3 {
+  background-color: #f8f4dd;
+  position: relative;
+  width: 600px;
+  height: 250px;
+  top: 200px;
+  left: 280px;
+  z-index: 5;
+  font-family: 'Bellota Text';
+
+  animation-name: design3_animation;
+  animation-duration: 3.5s;
+}
+
+@keyframes design3_animation {
+  0%   { left:0px; top: 200px;}
+
+  100% { left:280px; top: 200px;}
+}
+
+.coh_logo {
+  width: 190px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.coke_logo {
+  width: 190px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+
 
 
 /* contacts and form */
 .contacts_container{
     position: relative;
-    top: 1400px;
+    top: 1850px;
     width: 100%;
     display: flex;
 
 }
 
 .socials {
+  margin-top: 10px;
     position: relative;
     padding-top: 100px;
     left: 200px;
@@ -227,11 +302,11 @@ h4 {
 .footer{
     position: relative;
     text-align: center;
-    top: 1500px;
+    top: 2000px;
     background-color: #373b4448;
     height: 70px;
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 25px;
     width: 100%;
 
 }
@@ -322,9 +397,10 @@ h4 {
     height: 500px;
  }
 .dp {
-margin-left: 100px;
+  margin-left: 100px;
+  margin-top: 10px;
   border-radius: 50%;
-  width: 250px;
+  width: 230px;
   z-index: 10;
 }
 
