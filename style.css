@@ -1,0 +1,723 @@
+body {
+    background-color: #FFFFFF !important;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.topnav {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f8f4dd86;
+    z-index: 999; /*  higher z-index is placed on top of lower z-index*/
+
+}
+
+.logo_container {
+    left: 50px;
+}
+.logo_topnav{
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.logoname_container {
+    font-family: 'Bellota Text';
+  
+}
+
+.button_container{
+   margin-left: 1330px;
+
+}
+
+
+/* content 1 */
+
+.content_container {
+    position: relative;
+    margin-top: 150px;
+}
+
+.about_me {
+    text-align: justify;
+    background-color: #dce2f044;
+    margin-left: 800px;
+    width: 900px;
+    font-family: 'Bellota Text';
+    font-size: 22px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:200px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 30;
+
+    animation-name: aboutme_animation;
+    animation-duration: 2.75s;
+}
+
+@keyframes aboutme_animation {
+    0%   { left:-500px; top:auto;}
+    
+    100% { left:0; top:auto;}
+}
+
+.design1{
+    background-color: #f8f4dd;
+    width: 600px;
+    height: 250px;
+    position: absolute; /* position relative to its parent  */
+    left: 350px;
+    top: 200px;
+    z-index: 20;
+
+    animation-name: design1_animation;
+    animation-duration: 2.75s;
+}
+@keyframes design1_animation {
+    0%   { left:-500px; top:200px;}
+    
+    100% { left:350px; top:200px;}
+}
+
+
+.dp{
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+
+/* content 2 */
+.content_container2{
+    position: relative;
+    margin-top: 50px;
+}
+
+.studies{
+    position: relative;
+    text-align: justify;
+    background-color: #dce2f044;
+    margin-left: 200px;
+    width: 900px;
+    font-family: 'Bellota Text';
+    font-size: 22px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:100px;
+    padding-right: 200px;
+    z-index: 20;
+
+    animation-name: studies_animation;
+    animation-duration: 2.75s;
+}
+
+@keyframes studies_animation {
+    0%   { left:-500px; top:auto;}
+    
+    100% { left:0px; top:auto;}
+}
+
+
+.design2{
+    background-color: #f8f4dd;
+    width: 600px;
+    height: 250px;
+    position: absolute; /* position relative to its parent  */
+    right: 350px;
+    top: 200px;
+    animation-name: design2_animation;
+    animation-duration: 2.75s;
+}
+
+@keyframes design2_animation {
+    0%   { right:0; top:200px;}
+    
+    100% { right:350px; top:200px;}
+}
+
+.dlsl_logo{
+    width: 170px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.kodego_logo{
+    width: 180px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+
+
+/* content 3 */
+
+.content_container3 {
+    position: relative;
+    margin-top: 50px;
+}
+
+.experience{
+    position: relative;
+    text-align: justify;
+    background-color: #dce2f044;
+    margin-left: 800px;
+    width: 900px;
+    font-family: 'Bellota Text';
+    font-size: 22px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:200px;
+    padding-right: 50px;
+    z-index: 20;
+
+    animation-name: experience_animation;
+    animation-duration: 2.75s;
+
+}
+@keyframes experience_animation {
+    0%   { left:-500px; top:auto;}
+    
+    100% { left:0px; top:auto;}
+}
+
+.design3{
+    background-color: #f8f4dd;
+    width: 600px;
+    height: 250px;
+    position: absolute; /* position relative to its parent  */
+    left: 300px;
+    top: 200px;
+
+    animation-name: design3_animation;
+    animation-duration: 2.75s;
+}
+
+@keyframes design3_animation {
+    0%   { left:-500px; top:200px;}
+    
+    100% { left:300px; top:200px;}
+}
+
+.coh_logo {
+    width: 190px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.coke_logo {
+    width: 190px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+
+/* get in touch */
+
+.contacts_container{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    display: flex;
+}
+
+.socials {
+    margin-top: 10px;
+    position: relative;
+    padding-top: 100px;
+    left: 200px;
+    background-color: #dce2f044;
+    height: 400px !important;
+    width: 600px;
+    font-family: 'Bellota Text';
+    text-align: center;
+    
+}
+.abc{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+   
+}
+.get_intouch {
+    position: relative;
+    left: 450px;
+    padding-top: 40px;
+    font-family: 'Bellota Text';
+    text-align: center;
+    height: 600px;
+   
+}
+
+.form-control {   
+    text-align: center;
+    margin: auto ;
+    width: 600px !important;
+    background-color: #f8f4dd86 !important;
+}
+
+.logo_ig {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.logo_fb {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.logo_git{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+}
+
+.logo_linked{
+    width: 115px;
+    height: 90px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    
+    bottom: 0;
+    text-align: center;
+    background-color: #373b4448;
+    height: 70px;
+    margin: 0px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav_buttons {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #373B44;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.nav_buttons:hover,
+.nav_buttons:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+  
+.nav_buttons:active {
+    background: var(--color);
+    color: #fff;
+}
+
+
+/* Landing Page Index */
+
+
+#bg_clip {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit:cover;
+  
+}
+
+.lp_content{ 
+  position: fixed;
+  bottom: 542px;
+  left: 560px;
+  width: auto;
+  padding: 20px;
+  color:black;
+  font-family: 'Bellota Text';
+ 
+}
+
+
+.explore {
+    position: fixed;
+    text-align: center;
+    bottom: 270px;
+    left: 930px;
+    color:black;
+    font-family: 'Bellota Text';
+}
+
+
+
+
+
+
+/* mobile responsive */
+
+@media only screen and (max-width: 768px) {
+   
+    .topnav {
+        position: sticky;
+        width: 100%!important;
+        height: 60px;
+    }
+    
+    .logo_container {
+        margin-top: 2px !important;
+        left: 10px;
+    }
+
+    .logo_topnav{
+        height: 50px;
+        width: 50px;
+    }
+
+    #mobile_logoname_container{
+        margin-left: 10px !important;
+    }
+  
+    #mobile_h4 {
+     margin-top: 8px !important;
+     font-size: 15px !important;
+    }
+
+
+    .button_container {
+        margin-left: 360px;
+        float: right !important;
+
+    }
+
+    #mobile_navbuttons {
+        margin-top: 0px !important;
+        float: right !important;
+    }
+    
+    .content_container {
+        width: 98% !important;
+        margin-top: 80px;
+    }
+    
+    .about_me {
+        margin-top: -50px !important;
+        margin-left: 16px;
+        width:98% !important;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        animation: none;
+    }
+    
+    .design1 {
+        width: 98%;
+        height: 200px;
+        position: static;
+        margin-left: 16px;
+        margin-top: 20px;
+        animation: none;
+    }
+    
+    .dp {
+        margin-left: 38%;
+        margin-top: 10px;
+        width: 180px;
+        border-radius: 10%;
+    }
+    
+    .content_container2 {
+        margin-top: 20px;
+        width: 98%;
+    }
+    
+    .studies {
+        margin-left: 20px;
+        width: 98%;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        animation: none;
+    }
+    
+    .design2 {
+        width: 98%;
+        height: 200px;
+        position: static;
+        margin-left:20px;
+        margin-top: 20px;
+        animation: none;
+    }
+    
+    .dlsl_logo {
+        width: 180px;
+        height: 195px;
+        margin-left:160px;
+        margin-top: 0 ;
+        margin-bottom: 20px;
+    }
+    
+    .kodego_logo {
+        width: 180px;
+        height: 180px;
+        margin-left:30px;
+        margin-top: 0 ;
+        margin-bottom: 20px;
+    }
+    
+    .content_container3 {
+        margin-top: 20px;
+        width: 98%;
+    }
+    
+    .experience {
+        text-align: left;
+        margin-left: 20px;
+        width: 98%;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        padding-right: 20px;
+        animation: none;
+    }
+    
+    .design3 {
+        width: 98%;
+        height: 200px;
+        position: static;
+        margin-left:20px;
+        margin-top: 20px;
+        animation: none;
+    }
+    
+    .coh_logo {
+        width: 180px;
+        height: 180px;
+        margin-left:160px;
+        margin-top: 10px ;
+        margin-bottom: 20px;
+    }
+    
+    .coke_logo {
+        width: 180px;
+        height: 180px;
+        margin-left:30px;
+        margin-top: 10px ;
+        margin-bottom: 20px;
+    }
+
+ 
+
+
+    .contacts_container{
+        position: relative;
+        margin-left: 10px !important;
+        margin-top: 50px;
+        margin-bottom: 50px ;
+        width: 98%;
+        display: block;
+        text-align: center;
+      
+    }
+
+    .socials {
+        margin-left: 10px;
+        margin-top: 20px;
+        position: relative;
+        padding-top: 100px;
+        left: 0;
+        background-color: #dce2f044;
+        height: 600px;
+        width: 98%;
+        font-family: 'Bellota Text';
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .get_intouch {
+
+        position: relative;
+        margin-left: 10px;
+        left: 0;
+        height: 600px;
+        width: 98% !important;   
+        vertical-align: middle;
+    }
+    #getintouch{
+        margin-left: 20px;
+    }
+
+    .form-control {   
+        text-align: center;
+        margin: auto ;
+        width: 458px !important;
+        background-color: #f8f4dd86 !important;
+    }
+
+    .abc{
+        display: flex;
+        margin-left: 150px;
+        margin-top: 20px;
+       
+    }
+    .message_box {
+        margin-left: 2px;
+    }
+    .footer{
+        width: 100%;
+    }
+
+    /* landing page index */
+    .lp_content{ 
+        bottom: 460px !important;
+        left: 65px !important;
+    }
+
+    .explore {
+        bottom: 250px !important;
+        left: 355px !important;
+    }
+
+
+
+
+
+    /* works page responsive */
+
+    #containerid{
+
+        margin-top: 0 !important;
+        margin-left: 40px !important;
+    }
+
+    .column {
+        margin-top: 100px !important;
+    }
+    .btnpts{
+        margin: auto;
+        width: 100px;
+        height: 60px;
+       
+    }
+    
+    .footer2{
+        position: relative !important;
+        bottom: 0 !important;
+      
+    }
+
+    .button_container-works{
+        margin-left: 460px !important;
+    }
+
+}
+
+
+
+
+
+
+/* works css */
+
+
+#display-1{
+    width: 420px ;
+    height: 350px;
+}
+#display-2{
+    width: 420px ;
+    height: 300px;
+}
+#display-3{
+    width: 420px ;
+    height: 350px;
+}
+
+.column {
+    background-color: #f8f4dd86;
+    margin: 10px;
+    width: 500px !important; 
+    border-radius: 2%;
+}
+.content{
+    padding: 25px;
+    font-family: 'Bellota Text';
+    font-size: larger;
+}
+.contents-container{
+    width: auto !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    margin-top: 200px !important;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 78px;
+    text-align: center;
+}
+
+.edit{
+    margin-top: 52px;
+}
+
+
+
+.footer2{
+    position: absolute;
+    bottom: 0 !important;
+    text-align: center;
+    background-color: #373b4448;
+    height: 70px;
+    margin: 0px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.button_container-works{
+    margin-left: 1500px;
+}
